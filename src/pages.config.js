@@ -49,12 +49,18 @@
  */
 import AdviceCorner from './pages/AdviceCorner';
 import Dashboard from './pages/Dashboard';
+import Profile from './pages/Profile';
+import Colleges from './pages/Colleges';
+import Timeline from './pages/Timeline';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
     "AdviceCorner": AdviceCorner,
     "Dashboard": Dashboard,
+    "Profile": Profile,
+    "Colleges": Colleges,
+    "Timeline": Timeline,
 }
 
 export const pagesConfig = {
